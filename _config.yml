@@ -1,0 +1,19 @@
+# Jekyll Resume Theme
+
+# Site settings
+title: Kevin's Resume
+email: mrhuke@gmail.com
+description: Online resume for Kevin Hu.
+baseurl: ""
+url: ""
+name: Kevin Hu
+job: Software Engineer
+location: New York, NY
+languages: C++, Python, Java, HTML
+twitter_username: mrhuke
+github_username:  mrhuke
+linkedin_username: mrhuke
+email_address: mrhuke@gmail.com
+
+# Build settings
+markdown: kramdown
