@@ -13,22 +13,30 @@ dt, dd {
 
 @media(min-width: 640px) {
     dt, dd {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     .experience {
         dt {
-            width: 30%;
+            width: 40%;
             padding-right: ($spacer * 2);
         }
         dd {
-            width: 70%;
+            width: 60%;
         }
     }
 
     .education {
+        dt {
+            width: 60%;
+        }
+        dd {
+            width: 40%
+        }
+    }
+    .activity {
         dt, dd {
-            width: 50%;
+            width: 100%;
         }
     }
 }

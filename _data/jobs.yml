@@ -1,4 +1,4 @@
--   title: Software Enginner
+-   title: Software Engineer
     company: Google, New York
     period: 2013 - Current
     description: Improve data quality of Google Maps and its related products.
@@ -6,10 +6,10 @@
 -   title: Research Scientist
     company: Kuzer Co, Seattle
     period: 2012 - 2013
-    description: Develop real-time speech separation system.
+    description: Developed DNN-based low-latency speech separation algorithms. US patent 14/536114 (pending).
 
 -   title: Machine Learning Research Intern
     company: Bosch Research and Technology Center, Pittsburgh
     period: June - Sept, 2010
-    description: Machine Learning Research Intern
+    description: Modeling human activities for anomaly detection.
 
