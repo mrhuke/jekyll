@@ -1,19 +1,39 @@
 <header>
     <div class="container">
-        <div class="intro">
-            <p class="intro__pre">Resume</p>
-            <p class="intro__main"><span>{{ site.name }}</span>, a {{ site.job }} coding in {{ site.languages }}</p>
-            <p class="intro__post">{{ site.location }}</p>
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="intro">
+                    <p class="intro__pre">Resume</p>
+                    <p class="intro__main"><span>{{ site.name }}</span>, a {{ site.job }} coding in {{ site.languages }}</p>
+                    <p class="intro__post">{{ site.location }}</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <style>
+                    .center {
+                        line-height: 300px;
+                        height: 200px;
+                        position: relative;
+                    }
+                </style>
+
+                <div class="center">
+                    <a href="/"><img id="about" src="/static/img/kevin.png" height="250px" width="220px" /></a>
+                </div>
+            </div>
         </div>
- 
-        {{ if site.github_username or site.linkedin_username or site.twitter_username or site.email_address }}
-        <div class="social">
-            {{ if site.linkedin_username }}<a href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>{{ endif }}
-            {{ if site.github_username }}<a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>{{ endif }}
-            {{ if site.twitter_username }}<a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>{{ endif }}
-            {{ if site.email_address }}<a href="mailto:{{ site.email_address }}" target="_blank">Email</a>{{ endif }}
+
+        <div class="row">
+            {{ if site.github_username or site.linkedin_username or site.twitter_username or site.email_address }}
+            <div class="social">
+                {{ if site.linkedin_username }}<a href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>{{ endif }}
+                {{ if site.github_username }}<a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>{{ endif }}
+                {{ if site.twitter_username }}<a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>{{ endif }}
+                {{ if site.email_address }}<a href="mailto:{{ site.email_address }}" target="_blank">Email</a>{{ endif }}
+            </div>
+            {{ endif }}
         </div>
-        {{ endif }}
 
     </div>
 </header>
